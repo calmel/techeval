@@ -15,6 +15,12 @@
     margin: 0;
     padding: 0;
   }
+  ul {
+    text-align: left;
+    padding-top: 1em;
+    margin-left: 1em;
+    font-size: 1.2rem;
+  }
   @media (min-width: 992px) {
     height: 100vh;
     h1 {
