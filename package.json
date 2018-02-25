@@ -1,8 +1,8 @@
 {
-    "title": "Stylish Portfolio",
-    "name": "startbootstrap-stylish-portfolio",
-    "version": "4.0.0",
-    "description": "A stylish portfolio HTML template built with Bootstrap",
+    "title": "CMPT 470 Tech Eval",
+    "name": "techeval",
+    "version": "1.0.0",
+    "description": "Group 8 Tech Eval (Bootstrap)",
     "keywords": [
         "css",
         "sass",
@@ -19,19 +19,22 @@
         "node": "*",
         "npm": "*"
     },
-    "homepage": "https://startbootstrap.com/template-overviews/stylish-portfolio",
+    "homepage": "https://techevalgroup8.herokuapp.com/",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/issues",
+        "url": "https://github.com/calmel/techeval/issues",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Cmpt 470 Group 8",
     "contributors": [
+        "Ryan Ho",
+        "Joanna Che",
+        "Calvin Ma",
         "David Miller (http://davidmiller.io/)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio.git"
+        "url": "https://github.com/calmel/techeval.git"
     },
     "dependencies": {
         "bootstrap": "4.0.0",

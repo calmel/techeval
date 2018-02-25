@@ -1,5 +1,7 @@
 # CMPT 470 Group 8 Tech Eval
 
+Hosted on https://techevalgroup8.herokuapp.com/
+
 Created with the aid of [Start Bootstrap](http://startbootstrap.com/).
 
 ## Copyright and License
