@@ -11,6 +11,7 @@
         "theme",
         "template"
     ],
+    "main": "server.js",
     "scripts": {
         "postinstall": "gulp default"
     },
