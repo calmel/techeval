@@ -6,6 +6,7 @@ var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
 var pkg = require('./package.json');
+var connect = require('gulp-connect');
 
 // Set the banner content
 var banner = ['/*!\n',
@@ -127,4 +128,12 @@ gulp.task('watch', function() {
 
 // Dev task
 gulp.task('dev', ['css', 'js', 'watch', 'browserSync'], function() {
+});
+
+gulp.task('serveprod', function() {
+  connect.server({
+    root: ['./'],
+    port: process.env.PORT || 5000, // localhost:5000
+    livereload: false
+  });
 });

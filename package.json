@@ -11,8 +11,8 @@
         "theme",
         "template"
     ],
-    "script": {
-        "start": "gulp default"
+    "scripts": {
+        "postinstall": "gulp default && gulp serveprod"
     },
     "homepage": "https://startbootstrap.com/template-overviews/stylish-portfolio",
     "bugs": {
@@ -31,6 +31,7 @@
     "dependencies": {
         "bootstrap": "4.0.0",
         "font-awesome": "4.7.0",
+        "gulp-connect": "^5.5.0",
         "jquery": "3.3.1",
         "jquery.easing": "^1.4.1",
         "simple-line-icons": "^2.4.1"
