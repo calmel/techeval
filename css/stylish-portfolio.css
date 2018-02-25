@@ -147,7 +147,6 @@ h6 {
 .section2 {
   min-height: 30rem;
   position: relative;
-  display: table;
   width: 100%;
   height: auto;
   background-color: black;
@@ -236,6 +235,34 @@ h6 {
     height: 100vh;
   }
   .section4 h1 {
+    font-size: 5.5rem;
+  }
+}
+
+.section5 {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/background7.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section5 h1 {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .section5 {
+    height: 100vh;
+  }
+  .section5 h1 {
     font-size: 5.5rem;
   }
 }
@@ -499,7 +526,7 @@ a:hover, a:focus, a:active {
 }
 
 .container2 {
-  width: 100%;
+  width: 100vw;
   padding: 1rem;
   margin: auto;
 }
@@ -732,4 +759,16 @@ a:hover, a:focus, a:active {
 
 .logo.chrome.chromium .part-3, .logo.chrome.chromium .part-3:after {
   background: #89b7e1;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.h-40 {
+  height: 40%;
+}
+
+#sidebar-wrapper {
+  overflow: auto;
 }

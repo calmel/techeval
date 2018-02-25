@@ -53,7 +53,7 @@ a {
 }
 
 .container2 {
-  width: 100%;
+  width: 100vw;
   padding: 1rem;
   margin: auto;
 }
@@ -269,4 +269,13 @@ a {
 }
 .logo.chrome.chromium .part-3, .logo.chrome.chromium .part-3:after {
   background: #89b7e1;
+}
+.w-40 {
+  width: 40%;
+}
+.h-40 {
+  height: 40%;
+}
+#sidebar-wrapper{
+  overflow:auto;
 }
