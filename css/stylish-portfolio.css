@@ -267,6 +267,34 @@ h6 {
   }
 }
 
+.section6 {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/background4.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section6 h1 {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .section6 {
+    height: 100vh;
+  }
+  .section6 h1 {
+    font-size: 5.5rem;
+  }
+}
+
 /* Side Menu */
 #sidebar-wrapper {
   position: fixed;
