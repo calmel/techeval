@@ -2,7 +2,7 @@
   min-height: 30rem;
   position: relative;
   display: table;
-  width: 100%;
+  width: 100vw;
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -10,6 +10,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+
   h1 {
     font-size: 4rem;
     margin: 0;
