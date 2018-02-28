@@ -55,6 +55,13 @@
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem);
       }
+      .answer{
+        opacity:100;
+      }
     }
   }
+}
+.answer {
+  opacity: 0;
+  transition: opacity 1.5s ease-in;
 }

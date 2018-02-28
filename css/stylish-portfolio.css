@@ -479,6 +479,14 @@ h6 {
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
+  .portfolio-item:hover .answer {
+    opacity: 100;
+  }
+}
+
+.answer {
+  opacity: 0;
+  transition: opacity 1.5s ease-in;
 }
 
 footer.footer {
