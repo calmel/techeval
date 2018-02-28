@@ -21,8 +21,7 @@
     },
     "homepage": "https://techevalgroup8.herokuapp.com/",
     "bugs": {
-        "url": "https://github.com/calmel/techeval/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/calmel/techeval/issues"
     },
     "license": "MIT",
     "author": "Cmpt 470 Group 8",
